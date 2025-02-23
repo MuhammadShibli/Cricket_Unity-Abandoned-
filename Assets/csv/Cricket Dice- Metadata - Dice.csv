@@ -1,0 +1,21 @@
+diceid,dicetype (tentative),face1id,face2id,face3id,face4id,face5id,face6id
+D01,Power Hitter,F05,F23,F04,F25,F11,F12
+D02,Technical Batter,F01,F02,F03,F04,F23,F11
+D03,Fast Bowler,F06,F07,F19,F18,F12,F25
+D04,Spin Bowler,F07,F09,F08,F17,F12,F24
+D05,All-Rounder Batting,F01,F02,F11,F05,F04,F10
+D06,All-Rounder Bowling,F07,F06,F12,F18,F19,F10
+D07,Tactical Player,F10,F14,F20,F21,F22,F24
+D08,Resilient Player,F10,F12,F22,F23,F24,F25
+D09,Mental Toughness,F14,F21,F23,F10,F24,F20
+D10,Adaptable Player,F01,F02,F06,F09,F11,F13
+D11,Fielding Specialist,F16,F17,F15,F12,F18,F19
+D12,Veteran Player,F03,F04,F11,F23,F10,F12
+D13,Young Talent,F02,F04,F11,F21,F23,F10
+D14,Aggressive Bowler,F06,F07,F12,F18,F24,F25
+D15,Strategic Batter,F01,F02,F14,F22,F23,F11
+D16,Leadership,F10,F21,F22,F24,F25,F14
+D17,Innovative Player,F11,F14,F21,F22,F23,F24
+D18,Power Bowler,F07,F19,F18,F12,F25,F06
+D19,Spin Wizard,F07,F09,F08,F24,F25,F22
+D20,Finishing Specialist,F05,F25,F11,F12,F14,F21

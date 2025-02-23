@@ -1,0 +1,25 @@
+cricketerid,cricketername,specialdice1,specialdice2,normaldice1,normaldice2,talentdice1,talentdice2
+101,Chris Gayle,D01,D20,D05,D12,D08,D09
+102,Virat Kohli,D02,D15,D05,D12,D16,D07
+103,Mitchell Starc,D03,D14,D06,D13,D09,D11
+104,Shane Warne,D04,D19,D06,D10,D17,D09
+105,MS Dhoni,D15,D09,D05,D12,D16,D07
+106,Ben Stokes,D05,D06,D12,D10,D08,D17
+107,Ravindra Jadeja,D06,D10,D05,D13,D09,D11
+108,Jacques Kallis,D05,D12,D06,D10,D07,D17
+109,Lasith Malinga,D03,D18,D11,D10,D08,D09
+110,James Anderson,D03,D14,D06,D13,D09,D11
+111,AB de Villiers,D15,D02,D05,D12,D16,D07
+112,Kumar Sangakkara,D02,D09,D05,D12,D08,D17
+113,Jonty Rhodes,D11,D13,D05,D10,D09,D07
+114,Ricky Ponting,D02,D15,D12,D05,D16,D08
+115,Glenn McGrath,D14,D03,D13,D06,D11,D17
+116,Dale Steyn,D14,D03,D06,D10,D07,D09
+117,Steve Waugh,D15,D12,D05,D06,D07,D09
+118,Shakib Al Hasan,D05,D06,D12,D13,D08,D11
+119,David Warner,D02,D09,D05,D15,D08,D16
+120,Muttiah Muralitharan,D19,D04,D11,D06,D09,D17
+121,Jos Buttler,D15,D09,D05,D02,D16,D08
+122,Martin Guptill,D12,D05,D10,D06,D07,D09
+123,Joe Root,D02,D15,D05,D12,D16,D08
+124,Yuvraj Singh,D01,D20,D05,D12,D09,D07

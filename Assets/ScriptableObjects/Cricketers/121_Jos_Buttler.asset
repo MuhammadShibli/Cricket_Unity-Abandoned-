@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42a8dd2988d6f0a4aba9bb47f6bb1b53, type: 3}
+  m_Name: 121_Jos_Buttler
+  m_EditorClassIdentifier: 
+  cricketerId: 121
+  cricketerName: Jos Buttler
+  specialDice:
+  - {fileID: 11400000, guid: ee38aab2135d83c4f9d4f3b6bcd37975, type: 2}
+  - {fileID: 11400000, guid: 4e81ba1d42ffb724db4e851e764eb760, type: 2}
+  normalDice:
+  - {fileID: 11400000, guid: 883234a58b6a9e34bbdc3b58797cefc1, type: 2}
+  - {fileID: 11400000, guid: e39250e7b55375247a2a7f04f2256261, type: 2}
+  talentDice:
+  - {fileID: 11400000, guid: 58c4a187b1fc14241b65ecfa9716830d, type: 2}
+  - {fileID: 11400000, guid: 433c51fd82d32b640a4def66adf02f0b, type: 2}

@@ -1,0 +1,26 @@
+faceid,facesymbol,facedescription
+F01,1 bat,Scores one run
+F02,2 bats,Scores two runs
+F03,3 bats,Scores three runs
+F04,High Ball,Scores four runs or out
+F05,"low hit, high crit",Scores 3+ runs sometimes
+F06,Dot,"Delivers a dot ball,no runs scored"
+F07,Wicket,Bowler takes a wicket
+F08,Wide,"Extra run,rebowl"
+F09,No Ball,"Extra run,free hit"
+F10,Safe,Negates any wicket result for this roll
+F11,Boost,Boosts run total for the next roll
+F12,Lock,"Locks in current roll,preventing any changes"
+F13,Extra Ball,Grants an additional ball this over
+F14,Free Hit,"Next ball is a free hit; runs can be scored,no wicket risk"
+F15,Swap,Allows swapping this result with another roll
+F16,Reflect,Reflects the opponent’s last roll
+F17,Reverse,Reverses the order of play
+F18,Double Dot,Counts as two dots
+F19,Triple Dot,Counts as three dots
+F20,Amplify,Amplifies the next scoring roll by adding 50% to the score
+F21,Cascade,The result of this roll cascades to the next two rolls
+F22,Sync,"Synchronizes the next roll with the opponent's roll,matching outcomes"
+F23,Magnify,"Magnifies any runs scored on this roll,tripling them"
+F24,Counter,"Provides a counter-play,negating the opponent's last successful roll"
+F25,Shield,Prevents any negative effects for this turn

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44fe584eb2838f04a98790397d8c08a2, type: 3}
+  m_Name: D11
+  m_EditorClassIdentifier: 
+  diceId: D11
+  diceType: Fielding Specialist
+  faces:
+  - {fileID: 11400000, guid: 33ca11c42180bc64ea7b50a9885ad035, type: 2}
+  - {fileID: 11400000, guid: eca7e719321db054b8a3610f9f3e77fc, type: 2}
+  - {fileID: 11400000, guid: ff63e2bd3e6f3574d8536391834ec4c3, type: 2}
+  - {fileID: 11400000, guid: 936d7a1ae95d86044b791ed07dc818c4, type: 2}
+  - {fileID: 11400000, guid: 04ea54f05f21b784288b8e5c4db4b2fe, type: 2}
+  - {fileID: 11400000, guid: 7bf4ba3539b7e2748bbb85ac4db3304d, type: 2}
+  dicePrefab: {fileID: 0}

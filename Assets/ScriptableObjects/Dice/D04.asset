@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44fe584eb2838f04a98790397d8c08a2, type: 3}
+  m_Name: D04
+  m_EditorClassIdentifier: 
+  diceId: D04
+  diceType: Spin Bowler
+  faces:
+  - {fileID: 11400000, guid: 70aa55a537f9b9749a55092a703988c4, type: 2}
+  - {fileID: 11400000, guid: 0d26110e845abc142bb2373289f23c87, type: 2}
+  - {fileID: 11400000, guid: 1be8362120e683c419c4690d50c4e37d, type: 2}
+  - {fileID: 11400000, guid: eca7e719321db054b8a3610f9f3e77fc, type: 2}
+  - {fileID: 11400000, guid: 936d7a1ae95d86044b791ed07dc818c4, type: 2}
+  - {fileID: 11400000, guid: 6dfc05465e116c24e99763a20e294b6f, type: 2}
+  dicePrefab: {fileID: 0}

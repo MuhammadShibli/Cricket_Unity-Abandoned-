@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44fe584eb2838f04a98790397d8c08a2, type: 3}
+  m_Name: D10
+  m_EditorClassIdentifier: 
+  diceId: D10
+  diceType: Adaptable Player
+  faces:
+  - {fileID: 11400000, guid: 54f3aea84087a0e439f3e8909e00476b, type: 2}
+  - {fileID: 11400000, guid: bb5075532e54921448050050bdf0c600, type: 2}
+  - {fileID: 11400000, guid: 08e64155b18aa74439d222dd948e4a47, type: 2}
+  - {fileID: 11400000, guid: 0d26110e845abc142bb2373289f23c87, type: 2}
+  - {fileID: 11400000, guid: 5893831b6aa898449b2db8fb7be53388, type: 2}
+  - {fileID: 11400000, guid: ed6cacc62e34eda4cbb976680abac5e5, type: 2}
+  dicePrefab: {fileID: 0}
