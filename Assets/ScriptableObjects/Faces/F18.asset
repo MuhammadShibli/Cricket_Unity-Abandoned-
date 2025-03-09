@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: F18
   m_EditorClassIdentifier: 
   faceId: F18
-  symbol: Double Dot
-  description: Counts as two dots
-  visualReference: {fileID: 0}
+  faceLabel: Swing
+  description: Swing ball
+  spriteName: inswing

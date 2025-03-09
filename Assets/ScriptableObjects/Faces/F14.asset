@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: F14
   m_EditorClassIdentifier: 
   faceId: F14
-  symbol: Free Hit
+  faceLabel: no ball free hit
   description: '"Next ball is a free hit; runs can be scored'
-  visualReference: {fileID: 0}
+  spriteName: no_ball

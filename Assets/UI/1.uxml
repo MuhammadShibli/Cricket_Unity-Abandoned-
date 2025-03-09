@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/1.uss?fileID=7433441132597879392&amp;guid=bb158a70b58b5054e9d3dc7a8305a207&amp;type=3#1" />
+    <ui:VisualElement name="Panel" focusable="false" class="panel" style="flex-grow: 1;">
+        <ui:VisualElement name="Container" class="menu" style="flex-grow: 1; flex-direction: row; align-self: auto; align-content: auto; align-items: center;">
+            <ui:Button text="Button" />
+            <ui:Button text="Button" />
+            <ui:Button text="Button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

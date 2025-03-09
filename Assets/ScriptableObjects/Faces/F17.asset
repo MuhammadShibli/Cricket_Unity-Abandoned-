@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: F17
   m_EditorClassIdentifier: 
   faceId: F17
-  symbol: Reverse
-  description: Reverses the order of play
-  visualReference: {fileID: 0}
+  faceLabel: Reverse Swing
+  description: Reverse swing
+  spriteName: REVERSE SWING

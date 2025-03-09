@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: F19
   m_EditorClassIdentifier: 
   faceId: F19
-  symbol: Triple Dot
-  description: Counts as three dots
-  visualReference: {fileID: 0}
+  faceLabel: flick
+  description: turns to BB whem faced with yorker
+  spriteName: flick to power

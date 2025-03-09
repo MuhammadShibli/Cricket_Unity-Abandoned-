@@ -56,7 +56,7 @@ public class CricketDataImporter : EditorWindow
             string[] data = faceLines[i].Split(',');
             FaceSO face = CreateInstance<FaceSO>();
             face.faceId = data[0];
-            face.symbol = data[1];
+            face.faceLabel = data[1];
             face.description = data[2];
 
             string assetPath = $"Assets/ScriptableObjects/Faces/{data[0]}.asset";

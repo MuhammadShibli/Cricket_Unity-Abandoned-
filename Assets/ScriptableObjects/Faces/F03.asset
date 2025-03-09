@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: F03
   m_EditorClassIdentifier: 
   faceId: F03
-  symbol: 3 bats
+  faceLabel: bats triple
   description: Scores three runs
-  spriteName: bat triple
+  spriteName: bat_triple

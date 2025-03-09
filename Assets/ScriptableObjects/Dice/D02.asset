@@ -15,7 +15,7 @@ MonoBehaviour:
   diceId: D02
   diceType: Technical Batter
   faces:
-  - {fileID: 11400000, guid: 54f3aea84087a0e439f3e8909e00476b, type: 2}
+  - {fileID: 11400000, guid: 1be8362120e683c419c4690d50c4e37d, type: 2}
   - {fileID: 11400000, guid: bb5075532e54921448050050bdf0c600, type: 2}
   - {fileID: 11400000, guid: 312282cda48b16f4fbad99b03fd67265, type: 2}
   - {fileID: 11400000, guid: 80e0e39c6435bee48a90019ff97f49db, type: 2}

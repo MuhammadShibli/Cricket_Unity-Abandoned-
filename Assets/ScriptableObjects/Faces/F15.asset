@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: F15
   m_EditorClassIdentifier: 
   faceId: F15
-  symbol: Swap
-  description: Allows swapping this result with another roll
-  visualReference: {fileID: 0}
+  faceLabel: edge to boundary
+  description: 4 of 5% chance of wicket
+  spriteName: edge_to_boundary

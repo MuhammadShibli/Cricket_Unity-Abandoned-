@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: F11
   m_EditorClassIdentifier: 
   faceId: F11
-  symbol: Boost
-  description: Boosts run total for the next roll
-  visualReference: {fileID: 0}
+  faceLabel: placement shot
+  description: Counts as B but 10 % chance to be BB
+  spriteName: cricket_SSs_16

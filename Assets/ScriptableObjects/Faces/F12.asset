@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: F12
   m_EditorClassIdentifier: 
   faceId: F12
-  symbol: Lock
-  description: '"Locks in current roll'
-  visualReference: {fileID: 0}
+  faceLabel: All rounder
+  description: tunns wickets in dots or B
+  spriteName: all-around-play

@@ -1,0 +1,14 @@
+.panel {
+    -unity-background-image-tint-color: rgb(133, 81, 140);
+    border-left-width: 0;
+    background-color: rgba(101, 26, 26, 0.44);
+}
+
+.mainmenu {
+}
+
+.unity-buttom {
+}
+
+.menu {
+}

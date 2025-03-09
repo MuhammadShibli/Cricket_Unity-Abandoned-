@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cricketerId: 116
   cricketerName: Dale Steyn
+  Image: {fileID: 21300000, guid: 79829afee8dcdfd4a86c9652f38ae6f9, type: 3}
   specialDice:
   - {fileID: 11400000, guid: 68ae63e8bd757814ea5e9f8fec29e73a, type: 2}
   - {fileID: 11400000, guid: 77065be294452134ea851aa58365cf90, type: 2}

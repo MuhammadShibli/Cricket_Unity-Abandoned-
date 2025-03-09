@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: F04
   m_EditorClassIdentifier: 
   faceId: F04
-  symbol: High Ball
+  faceLabel: High Stroke
+  spriteId: -1
   description: Scores four runs or out
-  spriteName: star
+  spriteName: high shot

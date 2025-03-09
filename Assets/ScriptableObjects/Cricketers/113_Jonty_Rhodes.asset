@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cricketerId: 113
   cricketerName: Jonty Rhodes
+  Image: {fileID: 21300000, guid: 79829afee8dcdfd4a86c9652f38ae6f9, type: 3}
   specialDice:
   - {fileID: 11400000, guid: edce9652730cdea46a5a02c51cc65fff, type: 2}
   - {fileID: 11400000, guid: fbebd6e41ac005a4882e72bbdd294454, type: 2}

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 2f7c253b6713a5643983e1d04563e3f1
+guid: f850a3c3a0b4d434a887549e1d90ac27
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2991290058491787036
-    second: cricket_SS_0
+      213: 1932287536311964341
+    second: cricket_SSs_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -48,7 +48,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -116,10 +116,10 @@ TextureImporter:
       name: Wicket
       rect:
         serializedVersion: 2
-        x: 95
-        y: 2568
-        width: 375
-        height: 470
+        x: 0
+        y: 3115
+        width: 390
+        height: 393
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d7ce0844b96c31a49a9d86c4e76cdc3f
-      internalID: 1123386025
+      spriteID: 6491198e6d42590468b5b8ce227ef6b9
+      internalID: -1581841212
       vertices: []
       indices: 
       edges: []
@@ -138,10 +138,10 @@ TextureImporter:
       name: ball
       rect:
         serializedVersion: 2
-        x: 470
-        y: 2568
-        width: 470
-        height: 470
+        x: 390
+        y: 3115
+        width: 390
+        height: 393
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,20 +150,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59011cd2d50a8834592f79ac14f9a938
-      internalID: 135627892
+      spriteID: 6ad9af711b4d08e42b6365ff42d71386
+      internalID: -1670961591
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bat
+      name: bat_single
       rect:
         serializedVersion: 2
-        x: 940
-        y: 2568
-        width: 470
-        height: 470
+        x: 780
+        y: 3115
+        width: 390
+        height: 393
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,20 +172,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fde088a45f28e564a996947fb17daa7a
-      internalID: 1357275903
+      spriteID: f626ba84b1e5aa149b088e8bb5fcd31e
+      internalID: 1881531190
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bat double
+      name: bat _ double
       rect:
         serializedVersion: 2
-        x: 1410
-        y: 2568
-        width: 470
-        height: 470
+        x: 1170
+        y: 3115
+        width: 390
+        height: 393
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,20 +194,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8afc971fbc4b7a34bb34e41f4abe2e94
-      internalID: 1877363720
+      spriteID: 7bd0664769af2c54e8294cb602948086
+      internalID: -802740501
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bat triple
+      name: bat_triple
       rect:
         serializedVersion: 2
-        x: 1880
-        y: 2568
-        width: 470
-        height: 470
+        x: 1560
+        y: 3115
+        width: 390
+        height: 393
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,8 +216,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba09a606a23a6ed45bdef29cded9a928
-      internalID: 360737289
+      spriteID: 2b2b886edd60b454781720f097e4cccf
+      internalID: -798646395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_shield
+      rect:
+        serializedVersion: 2
+        x: 1950
+        y: 3115
+        width: 390
+        height: 393
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553f5fac841f9f44dae4c10604d59a54
+      internalID: -456078200
       vertices: []
       indices: 
       edges: []
@@ -226,10 +248,10 @@ TextureImporter:
       name: dot
       rect:
         serializedVersion: 2
-        x: 52
-        y: 2098
-        width: 418
-        height: 470
+        x: 0
+        y: 2722
+        width: 390
+        height: 393
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -238,8 +260,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1dc598db61253c241b4bffa1ac7252c2
-      internalID: 1061469804
+      spriteID: 8fa2cf718ef3bbc4796bbda5c9ecb160
+      internalID: 593380071
       vertices: []
       indices: 
       edges: []
@@ -248,10 +270,10 @@ TextureImporter:
       name: star
       rect:
         serializedVersion: 2
-        x: 470
-        y: 2098
-        width: 470
-        height: 470
+        x: 390
+        y: 2722
+        width: 390
+        height: 393
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,8 +282,536 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88721c3b18f133d4182d6876f8e05fc3
-      internalID: -1554250037
+      spriteID: 35afd970b5abfa745afe14a5161caa08
+      internalID: 1123630436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wide
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 2767
+        width: 335
+        height: 330
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 3, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b6f338f32ae8c84fa7ca67a5a21319d
+      internalID: -1377552779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_ball
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 2722
+        width: 390
+        height: 393
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95857459d4278fa499372611e2e6406e
+      internalID: -1837389357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flick to power
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 2722
+        width: 390
+        height: 393
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5421ab647dd0e9b4693d81cef76923ff
+      internalID: -1110136361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high shot
+      rect:
+        serializedVersion: 2
+        x: 1950
+        y: 2722
+        width: 390
+        height: 393
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659a07c585903f9458942ea75592428f
+      internalID: 996755098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sweep
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2329
+        width: 390
+        height: 393
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e4b505e7bdaec40b79321bb99ec45c
+      internalID: 1311809970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: helmet
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 2329
+        width: 390
+        height: 393
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72bcab62bd3474741979f9bc68fecae5
+      internalID: 1754510075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smart shot
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 2329
+        width: 390
+        height: 393
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dfd613402eb1494b99a4614f22a6ee4
+      internalID: 1211201089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defensive shot
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 2343
+        width: 390
+        height: 393
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8152e9ccd6c4eda45ac8ebcfe9515570
+      internalID: 1048378746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cricket_SSs_16
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 2329
+        width: 390
+        height: 393
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b3e8a47d52310e49a5bbc0afde2aaae
+      internalID: 1990935107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cricket_SSs_17
+      rect:
+        serializedVersion: 2
+        x: 1950
+        y: 2329
+        width: 390
+        height: 393
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ddbe8c02ec3f5b42ba6da962e079343
+      internalID: -1419035419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1936
+        width: 390
+        height: 393
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc2e851636441e48b8e5b6667f9d756
+      internalID: -1958951226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edge_to_boundary
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 1936
+        width: 390
+        height: 393
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f11b443ba72fba242b4c907fec71573e
+      internalID: 1969785717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inswing
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 1936
+        width: 390
+        height: 393
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a1487572ee3b14418d3f18116fa4ad6
+      internalID: 1530920981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REVERSE SWING
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 1936
+        width: 390
+        height: 393
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d40f1c0dbcedcb4ebdec124b97f42a5
+      internalID: -760872267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MISS TIMED
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 1936
+        width: 390
+        height: 393
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c98bc0db4318d8418fa961aab1e41bd
+      internalID: -1826828579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POWER SHOT
+      rect:
+        serializedVersion: 2
+        x: 1950
+        y: 1936
+        width: 390
+        height: 393
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a1d4f60bd747841acf87a6b35eb252
+      internalID: 1089803071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solid defense
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1543
+        width: 390
+        height: 393
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 159afbd797949184ebfcc46f978c6bd9
+      internalID: -1483699109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfect_yorker
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 1543
+        width: 390
+        height: 393
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d7195121f952546b28c403ad914759
+      internalID: 950914158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Express pace
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 1543
+        width: 390
+        height: 393
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb729031a26aaa499c4ce9ad27564a8
+      internalID: -1040811717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mystery_spin
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 1543
+        width: 390
+        height: 393
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 057b4666254070e4b99f7fc400e5f37c
+      internalID: -1397550771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: precision placement
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 1543
+        width: 390
+        height: 393
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 144ed6189181ada418ce1687e64bc1f6
+      internalID: -768709777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all-around-play
+      rect:
+        serializedVersion: 2
+        x: 1950
+        y: 1543
+        width: 390
+        height: 393
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86334dc9303718b42ae615421d740946
+      internalID: -415531176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deceptive Swing
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1150
+        width: 390
+        height: 393
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3946213a69d47aa46b2968abc00ff951
+      internalID: -726215277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: helicopter_shot
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 1150
+        width: 390
+        height: 393
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ddaccfbbc3f86d4a9e7b4cdadebd1eb
+      internalID: 186933892
       vertices: []
       indices: 
       edges: []
@@ -270,7 +820,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: b50bcdd043a17844582b0fb74d66d9a3
+    spriteID: 9fbb76df5308b1544ad4bc870d7f3ecc
     internalID: 0
     vertices: []
     indices: 
@@ -280,41 +830,56 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Wicket: 1123386025
-      ball: 135627892
-      bat: 1357275903
-      bat double: 1877363720
-      bat triple: 360737289
-      cricket_SS_0: -1645302251
-      cricket_SS_1: 1820600690
-      cricket_SS_12: -1759363368
-      cricket_SS_13: 1676194602
-      cricket_SS_14: -153492159
-      cricket_SS_15: -975593722
-      cricket_SS_16: 1735644164
-      cricket_SS_17: 957469125
-      cricket_SS_18: -1162065162
-      cricket_SS_19: 1327980085
-      cricket_SS_2: 565746691
-      cricket_SS_20: 1402480080
-      cricket_SS_21: -1240382533
-      cricket_SS_22: -1307997798
-      cricket_SS_23: 2129389440
-      cricket_SS_24: 318557635
-      cricket_SS_25: 1413151890
-      cricket_SS_26: 318709871
-      cricket_SS_27: 56173466
-      cricket_SS_28: -621916347
-      cricket_SS_29: -2022874012
-      cricket_SS_3: -477257798
-      cricket_SS_30: -371054713
-      cricket_SS_31: -1674470793
-      cricket_SS_32: -1343320442
-      cricket_SS_33: 182120376
-      cricket_SS_34: -1734857444
-      cricket_SS_4: 821325675
-      dot: 1061469804
-      star: -1554250037
+      Deceptive Swing: -726215277
+      Express pace: -1040811717
+      MISS TIMED: -1826828579
+      POWER SHOT: 1089803071
+      REVERSE SWING: -760872267
+      Sweep: 1311809970
+      Wicket: -1581841212
+      all-around-play: -415531176
+      ball: -1670961591
+      bat _ double: -802740501
+      bat_shield: -456078200
+      bat_single: 1881531190
+      bat_triple: -798646395
+      cricket_SS_0: -87947939
+      cricket_SSs_16: 1990935107
+      cricket_SSs_17: -1419035419
+      cricket_SSs_30: -487095057
+      cricket_SSs_32: 2141898212
+      cricket_SSs_33: -1193223341
+      cricket_SSs_34: 1997225562
+      cricket_SSs_35: 1187090879
+      cricket_SSs_36: 457595221
+      cricket_SSs_37: 1595989269
+      cricket_SSs_38: -1085395153
+      cricket_SSs_39: -1536784445
+      cricket_SSs_40: -313755109
+      cricket_SSs_41: -781148167
+      cricket_SSs_42: 485231340
+      cricket_SSs_43: -1982281882
+      cricket_SSs_44: 1369493634
+      cricket_SSs_45: 1116111720
+      cricket_SSs_46: -1810655378
+      cricket_SSs_47: -688089146
+      defensive shot: 1048378746
+      dot: 593380071
+      edge_to_boundary: 1969785717
+      flick to power: -1110136361
+      helicopter_shot: 186933892
+      helmet: 1754510075
+      high shot: 996755098
+      inswing: 1530920981
+      mystery_spin: -1397550771
+      no_ball: -1837389357
+      perfect_yorker: 950914158
+      precision placement: -768709777
+      run: -1958951226
+      smart shot: 1211201089
+      solid defense: -1483699109
+      star: 1123630436
+      wide: -1377552779
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

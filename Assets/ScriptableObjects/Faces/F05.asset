@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: F05
   m_EditorClassIdentifier: 
   faceId: F05
-  symbol: '"low hit'
-  description: ' high crit"'
-  spriteName: star
+  faceLabel: defmsove sjpt
+  description: converts to dot , reduces wicket chance
+  spriteName: Sweep

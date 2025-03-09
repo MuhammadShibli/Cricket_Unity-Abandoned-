@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cricketerId: 109
   cricketerName: Lasith Malinga
+  Image: {fileID: 21300000, guid: 79829afee8dcdfd4a86c9652f38ae6f9, type: 3}
   specialDice:
   - {fileID: 11400000, guid: 77065be294452134ea851aa58365cf90, type: 2}
   - {fileID: 11400000, guid: 5c15e7f607e799e499cd2248aac1e673, type: 2}

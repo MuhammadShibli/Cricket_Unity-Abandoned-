@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: F01
   m_EditorClassIdentifier: 
   faceId: F01
-  symbol: 1 bat
+  faceLabel: single bat
   description: Scores one run
-  spriteName: bat
+  spriteName: bat_single

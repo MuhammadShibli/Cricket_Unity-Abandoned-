@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cricketerId: 104
   cricketerName: Shane Warne
+  Image: {fileID: 21300000, guid: 79829afee8dcdfd4a86c9652f38ae6f9, type: 3}
   specialDice:
   - {fileID: 11400000, guid: 0ccbbb7791be68243aa251aa96566478, type: 2}
   - {fileID: 11400000, guid: 351b63ed7e5e62e458e6689dc454f462, type: 2}

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: F08
   m_EditorClassIdentifier: 
   faceId: F08
-  symbol: Wide
+  faceLabel: Wide Ball
   description: '"Extra run'
-  visualReference: {fileID: 0}
+  spriteName: wide

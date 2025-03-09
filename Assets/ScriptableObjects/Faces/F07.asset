@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: F07
   m_EditorClassIdentifier: 
   faceId: F07
-  symbol: Wicket
+  faceLabel: Wicket
   description: Bowler takes a wicket
   spriteName: Wicket

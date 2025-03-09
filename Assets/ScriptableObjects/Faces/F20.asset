@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: F20
   m_EditorClassIdentifier: 
   faceId: F20
-  symbol: Amplify
+  faceLabel: shield bat
   description: Amplifies the next scoring roll by adding 50% to the score
-  visualReference: {fileID: 0}
+  spriteName: bat_shield

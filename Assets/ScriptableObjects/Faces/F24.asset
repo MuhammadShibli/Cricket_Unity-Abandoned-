@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: F24
   m_EditorClassIdentifier: 
   faceId: F24
-  symbol: Counter
-  description: '"Provides a counter-play'
-  visualReference: {fileID: 0}
+  faceLabel: smart shot
+  description: Ignores Wicket once, scoes BB
+  spriteName: smart shot

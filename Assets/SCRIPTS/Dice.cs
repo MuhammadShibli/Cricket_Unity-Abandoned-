@@ -17,7 +17,7 @@ public class Dice : MonoBehaviour
     {
         for (int i = 0; i < diceData.faces.Length && i < faceDisplays.Length; i++)
         {
-            faceDisplays[i].text = diceData.faces[i].symbol;
+            faceDisplays[i].text = diceData.faces[i].faceLabel;
         }
     }
 

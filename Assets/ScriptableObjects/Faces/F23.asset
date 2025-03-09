@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: F23
   m_EditorClassIdentifier: 
   faceId: F23
-  symbol: Magnify
-  description: '"Magnifies any runs scored on this roll'
-  visualReference: {fileID: 0}
+  faceLabel: Power Shot
+  description: 6 or 20% chance of wicket
+  spriteName: POWER SHOT

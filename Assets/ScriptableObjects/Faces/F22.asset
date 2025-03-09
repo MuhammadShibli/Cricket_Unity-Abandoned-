@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: F22
   m_EditorClassIdentifier: 
   faceId: F22
-  symbol: Sync
-  description: '"Synchronizes the next roll with the opponent''s roll'
-  visualReference: {fileID: 0}
+  faceLabel: miss timed shot
+  description: he;s an idiot
+  spriteName: MISS TIMED

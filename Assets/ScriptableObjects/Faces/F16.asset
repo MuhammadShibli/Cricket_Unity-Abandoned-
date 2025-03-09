@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: F16
   m_EditorClassIdentifier: 
   faceId: F16
-  symbol: Reflect
-  description: "Reflects the opponent\u2019s last roll"
-  visualReference: {fileID: 0}
+  faceLabel: express pace
+  description: 
+  spriteName: Express pace
