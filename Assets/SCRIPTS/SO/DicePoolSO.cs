@@ -13,36 +13,31 @@ public class DicePoolSO : ScriptableObject
         dicePool.Add(dice);
     }
 
-    public DiceSO DrawRandomDice()
+    public DiceSO GetARandomDice()
     {
         if (dicePool.Count == 0)
         {
-            Debug.LogError("Dice pool is empty!");
-            return null;
+            dicePool.AddRange(chosenPool);
+            chosenPool.Clear();
         }
-
-        if (chosenPool.Count == dicePool.Count)
-        {
-            Debug.LogWarning("All dice have been drawn. Resetting the pool.");
-            ResetDicePool();
-        }
-
-        int randomIndex = -1;
-        DiceSO drawnDice = null;
-        while (true)
-        {
-            randomIndex = Random.Range(0, dicePool.Count);
-            drawnDice = dicePool[randomIndex];
-            if (!chosenPool.Contains(drawnDice))
-            {
-                chosenPool.Add(drawnDice);
-                break;
-            }
-        }
-        return drawnDice;
+        int randomIndex = Random.Range(0, dicePool.Count);
+        var randomDice = dicePool[randomIndex];
+        dicePool.RemoveAt(randomIndex);
+        chosenPool.Add(randomDice);
+        return randomDice;
     }
+    public List<DiceSO> DrawRandomDice(int amount)
+    {
+        List<DiceSO> randomDice = new List<DiceSO>();
+        for (int i = 0; i < amount; i++)
+        {
+            var die =  GetARandomDice();
+            randomDice.Add(die);
 
-    private void ResetDicePool()
+        }
+        return randomDice;
+    }
+    public void ResetDicePool()
     {
         chosenPool.Clear();
     }

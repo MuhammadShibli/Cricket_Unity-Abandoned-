@@ -13,19 +13,12 @@ MonoBehaviour:
   m_Name: DicePool
   m_EditorClassIdentifier: 
   dicePool:
-  - {fileID: 11400000, guid: bd2fe74f421b02c428519f0fbb08b09e, type: 2}
-  - {fileID: 11400000, guid: e39250e7b55375247a2a7f04f2256261, type: 2}
-  - {fileID: 11400000, guid: 77065be294452134ea851aa58365cf90, type: 2}
-  - {fileID: 11400000, guid: 0ccbbb7791be68243aa251aa96566478, type: 2}
   - {fileID: 11400000, guid: 883234a58b6a9e34bbdc3b58797cefc1, type: 2}
-  - {fileID: 11400000, guid: bd102ad5494d07e4eaea5415c6c98baf, type: 2}
-  - {fileID: 11400000, guid: bc4feb649e9a23640ad838ae5a5963ff, type: 2}
-  - {fileID: 11400000, guid: 433c51fd82d32b640a4def66adf02f0b, type: 2}
-  - {fileID: 11400000, guid: 4e81ba1d42ffb724db4e851e764eb760, type: 2}
-  - {fileID: 11400000, guid: 046f9609b3c3fa74e837b74014326a2a, type: 2}
-  - {fileID: 11400000, guid: edce9652730cdea46a5a02c51cc65fff, type: 2}
-  - {fileID: 11400000, guid: 68ae63e8bd757814ea5e9f8fec29e73a, type: 2}
   - {fileID: 11400000, guid: ceec31e153fd85f469903fdc7d72cf59, type: 2}
-  - {fileID: 11400000, guid: f7c7b410daa57304d8c22d7d20968b6e, type: 2}
-  - {fileID: 11400000, guid: ee38aab2135d83c4f9d4f3b6bcd37975, type: 2}
-  - {fileID: 11400000, guid: 5c15e7f607e799e499cd2248aac1e673, type: 2}
+  - {fileID: 11400000, guid: ceec31e153fd85f469903fdc7d72cf59, type: 2}
+  - {fileID: 11400000, guid: ceec31e153fd85f469903fdc7d72cf59, type: 2}
+  - {fileID: 11400000, guid: e39250e7b55375247a2a7f04f2256261, type: 2}
+  - {fileID: 11400000, guid: 58c4a187b1fc14241b65ecfa9716830d, type: 2}
+  - {fileID: 11400000, guid: 58c4a187b1fc14241b65ecfa9716830d, type: 2}
+  - {fileID: 11400000, guid: 58c4a187b1fc14241b65ecfa9716830d, type: 2}
+  - {fileID: 11400000, guid: 58c4a187b1fc14241b65ecfa9716830d, type: 2}

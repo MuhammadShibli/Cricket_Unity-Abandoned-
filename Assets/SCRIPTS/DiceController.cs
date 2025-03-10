@@ -23,7 +23,7 @@ public class DiceController : MonoBehaviour
         // now we need  o pick the dice from the pool 6
         var randomDice = dicePool.DrawRandomDice(6);
         //then we need to initialize the dice hand
-        diceHand.InitializeHand(dicePool, randomDice,DiceDisplayManager.DiceDisplayConfig.Default);
+        diceHand.InitializeHand(dicePool, randomDice);
        
         
 

@@ -94,7 +94,7 @@ public class DiceHand : MonoBehaviour
                 dicePool.AddDice(currentDice[i]);
 
                 // Draw new die from pool
-                DiceSO newDie = dicePool.DrawRandomDice();
+                DiceSO newDie = dicePool.GetARandomDice();
                 if (newDie != null)
                 {
                     currentDice[i] = newDie;

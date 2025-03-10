@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEditor;
 using UnityEngine.UI;
 using System;
+using UnityEngine.Events;
 public class UI_manager : MonoBehaviour
 {
     public GameObject cricketerUI;
@@ -12,6 +13,7 @@ public class UI_manager : MonoBehaviour
     private GameObject cricketerSelectUI;
     
     GameObject contentHolder;
+    public UnityEvent<CricketerSO> onCricketerSelectedEvent;
     private void Awake()
     {
         // Find the BattleManager instance first
@@ -69,7 +71,8 @@ public class UI_manager : MonoBehaviour
     }
 
     private void OnCricketerSelected(CricketerSO arg0)
-    { 
+    {
+        onCricketerSelectedEvent?.Invoke(arg0);  
         cricketerSelectUI.SetActive(false);
         GetComponent<UIDicePhase>().OnCricketerReady(arg0);
     }
