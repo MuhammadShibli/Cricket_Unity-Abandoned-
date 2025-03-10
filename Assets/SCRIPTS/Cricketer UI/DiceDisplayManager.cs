@@ -3,11 +3,13 @@ using UnityEngine;
 
 public class DiceDisplayManager : MonoBehaviour
 {
+    public Material cubeMat;
+    public Material spriteMat;
     public Vector3 startPosition = new Vector3(0, 0, 0);
-    public Vector3 spacing = new Vector3(1, 0, 0);
+    public float faceOffset = 0.01f; // Small value to avoid Z-fighting
     public float scale = 1f;
-    public float faceScale = 0.2f;
-    public List<DiceSO> diceList = new List<DiceSO>(); // Add this line
+    public float faceScale = 1f;
+    public List<DiceSO> diceList = new List<DiceSO>();
 
     private List<GameObject> createdDice = new List<GameObject>();
 
@@ -20,14 +22,31 @@ public class DiceDisplayManager : MonoBehaviour
         }
     }
 
+    public void SetDiceList(List<DiceSO> diceList)
+    {
+        this.diceList = diceList;
+    }
+
     private void Create3DDice(DiceSO dice, int index)
     {
         GameObject diceObject = GameObject.CreatePrimitive(PrimitiveType.Cube);
+        
+        diceObject.name = "Dice" + index;
         diceObject.transform.localScale = Vector3.one * scale;
-        diceObject.transform.position = startPosition + (spacing * index);
+        diceObject.transform.position = startPosition + new Vector3(index * (scale + 0.5f), 0, 0);
 
         // Disable the default cube renderer since we're using sprites
-        diceObject.GetComponent<MeshRenderer>().enabled = false;
+        diceObject.GetComponent<MeshRenderer>().material=cubeMat;
+
+        // Create faces along the normals of the cube
+        Vector3[] normals = {
+            Vector3.forward,
+            Vector3.back,
+            Vector3.up,
+            Vector3.down,
+            Vector3.right,
+            Vector3.left
+        };
 
         for (int i = 0; i < 6; i++)
         {
@@ -37,42 +56,12 @@ public class DiceDisplayManager : MonoBehaviour
 
             SpriteRenderer spriteRenderer = face.AddComponent<SpriteRenderer>();
             spriteRenderer.sprite = dice.faces[i].GetSprite(dice.faces[i].spriteName);
-          
-            // Position and rotate each face properly
-            switch (i)
-            {
-                case 0: // Front
-                    face.transform.localPosition = new Vector3(0, 0, DiceSO.FACE_OFFSET);
-                    face.transform.localRotation = Quaternion.Euler(0, 0, 0);
-                    face.transform.localScale = Vector3.one * faceScale;
-                    break;
-                case 1: // Back
-                    face.transform.localPosition = new Vector3(0, 0, -DiceSO.FACE_OFFSET);
-                    face.transform.localRotation = Quaternion.Euler(0, 180, 0); 
-                    face.transform.localScale = Vector3.one * faceScale;
-                    break;
-                case 2: // Top
-                    face.transform.localPosition = new Vector3(0, DiceSO.FACE_OFFSET, 0);
-                    face.transform.localRotation = Quaternion.Euler(90, 0, 0);
-                    face.transform.localScale = Vector3.one * faceScale;
-                    break;
-                case 3: // Bottom
-                    face.transform.localPosition = new Vector3(0, -DiceSO.FACE_OFFSET, 0);
-                    face.transform.localRotation = Quaternion.Euler(-90, 0, 0);
-                    face.transform.localScale = Vector3.one * faceScale;
-                    break;
-                case 4: // Right
-                    face.transform.localPosition = new Vector3(DiceSO.FACE_OFFSET, 0, 0);
-                    face.transform.localRotation = Quaternion.Euler(0, 90, 0);
-                    face.transform.localScale = Vector3.one * faceScale;
-                    break;
-                case 5: // Left
-                    face.transform.localPosition = new Vector3(-DiceSO.FACE_OFFSET, 0, 0);
-                    face.transform.localRotation = Quaternion.Euler(0, -90, 0);
-                    face.transform.localScale = Vector3.one * faceScale;
-                    break;
-            }
+            spriteRenderer.material = spriteMat;
 
+            // Position each face along the normal with some distance away
+            face.transform.localPosition = normals[i] * (0.5f * scale + faceOffset);
+            face.transform.localRotation = Quaternion.LookRotation(normals[i]);
+            face.transform.localScale *= scale;
             // Add sorting layer and order to ensure faces render properly
             spriteRenderer.sortingOrder = 1;
         }

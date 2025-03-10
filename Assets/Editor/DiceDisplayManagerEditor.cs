@@ -18,8 +18,6 @@ public class DiceDisplayManagerEditor : Editor
 
         DrawDefaultInspector();
 
-        EditorGUILayout.PropertyField(diceListProperty, true);
-
         DiceDisplayManager manager = (DiceDisplayManager)target;
 
         if (GUILayout.Button("Display Dice"))

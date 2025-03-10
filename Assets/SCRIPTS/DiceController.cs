@@ -7,10 +7,12 @@ public class DiceController : MonoBehaviour
     public DicePoolSO dicePool;
     CricketerSO cricketer;
     DiceHand diceHand;
+    DiceDisplayManager diceDisplayManager;
     private void Awake()
     {
         diceHand = FindFirstObjectByType<DiceHand>();  
         var uiManager = FindFirstObjectByType<UI_manager>();
+        diceDisplayManager = FindFirstObjectByType<DiceDisplayManager>();
         uiManager.onCricketerSelectedEvent.AddListener(OnCricketerSelected);
     }
 
@@ -22,6 +24,7 @@ public class DiceController : MonoBehaviour
         CreateDicePool();
         // now we need  o pick the dice from the pool 6
         var randomDice = dicePool.DrawRandomDice(6);
+        diceDisplayManager.SetDiceList(randomDice);
         //then we need to initialize the dice hand
         diceHand.InitializeHand(dicePool, randomDice);
        
