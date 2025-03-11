@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class DiceController : MonoBehaviour
@@ -8,6 +9,7 @@ public class DiceController : MonoBehaviour
     CricketerSO cricketer;
     DiceHand diceHand;
     DiceDisplayManager diceDisplayManager;
+    List<DiceSO> diceList = new List<DiceSO>();
     private void Awake()
     {
         diceHand = FindFirstObjectByType<DiceHand>();  
@@ -23,13 +25,10 @@ public class DiceController : MonoBehaviour
         //now we need to add the dice to the pool first
         CreateDicePool();
         // now we need  o pick the dice from the pool 6
-        var randomDice = dicePool.DrawRandomDice(6);
-        diceDisplayManager.SetDiceList(randomDice);
+       diceList = dicePool.DrawRandomDice(6);
+        diceDisplayManager.SetDiceList(diceList);
         //then we need to initialize the dice hand
-        diceHand.InitializeHand(dicePool, randomDice);
-       
-        
-
+        diceHand.InitializeHand(dicePool, diceList);
     }
 
     void CreateDicePool()
@@ -58,5 +57,7 @@ public class DiceController : MonoBehaviour
             }
         }
     }
+
    
+
 }

@@ -8,11 +8,14 @@ public class FaceSO : ScriptableObject
     public string faceLabel;
     public int spriteId;
     public string description;
+    public GameObject diceObject;
     [HideInInspector] public string spriteName;
 
+    
     public Sprite GetSprite(string name)
     {
-        return SpriteManager.GetSpriteWithName(spriteName);
+        var toReturn = SpriteManager.GetSpriteWithName(spriteName);
+        return toReturn;
     }
 
     

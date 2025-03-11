@@ -74,7 +74,6 @@ public class UI_manager : MonoBehaviour
     {
         onCricketerSelectedEvent?.Invoke(arg0);  
         cricketerSelectUI.SetActive(false);
-        GetComponent<UIDicePhase>().OnCricketerReady(arg0);
 
     }
 }

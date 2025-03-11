@@ -34,7 +34,7 @@ public class DiceHand : MonoBehaviour
         List<FaceSO> results = new List<FaceSO>();
         foreach (DiceSO die in currentDice)
         {
-            results.Add(die.Roll());
+            //results.Add(die.Roll());
         }
         onDiceResults.Invoke(results);
     }

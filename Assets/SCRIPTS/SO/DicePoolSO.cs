@@ -31,7 +31,7 @@ public class DicePoolSO : ScriptableObject
         List<DiceSO> randomDice = new List<DiceSO>();
         for (int i = 0; i < amount; i++)
         {
-            var die =  GetARandomDice();
+            var die = GetARandomDice();
             randomDice.Add(die);
 
         }
@@ -42,8 +42,4 @@ public class DicePoolSO : ScriptableObject
         chosenPool.Clear();
     }
 
-    public FaceSO RollDice(DiceSO dice)
-    {
-        return dice.Roll();
-    }
 }

@@ -45,8 +45,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32ff204ee0aae0b4e9e844aee3b6e601, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isTeamTwo: 1
   teamData: {fileID: 11400000, guid: bc62c251423602c419a977243ab94058, type: 2}
-  rerollsRemaining: 3
+  diceHand: {fileID: 2807536242888664288}
+  onCricketerSelected:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &2807536242888664288
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60,3 +64,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   diceParent: {fileID: 2554698638468906062}
+  onDiceResults:
+    m_PersistentCalls:
+      m_Calls: []

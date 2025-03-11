@@ -1,8 +1,11 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class DiceDisplayManager : MonoBehaviour
 {
+    [SerializeField]
+    public PhysicsMaterial dicePhysicsMaterial;
     public Material cubeMat;
     public Material spriteMat;
     public Vector3 startPosition = new Vector3(0, 0, 0);
@@ -10,7 +13,8 @@ public class DiceDisplayManager : MonoBehaviour
     public float scale = 1f;
     public float faceScale = 1f;
     public List<DiceSO> diceList = new List<DiceSO>();
-
+    public UnityEvent<List<GameObject>> OnDiceGenerated;
+    
     private List<GameObject> createdDice = new List<GameObject>();
 
     public void DisplayDice(List<DiceSO> diceList)
@@ -20,20 +24,22 @@ public class DiceDisplayManager : MonoBehaviour
         {
             Create3DDice(diceList[i], i);
         }
+        OnDiceGenerated?.Invoke(createdDice);
     }
 
     public void SetDiceList(List<DiceSO> diceList)
     {
         this.diceList = diceList;
+        DisplayDice(diceList);
     }
 
     private void Create3DDice(DiceSO dice, int index)
     {
         GameObject diceObject = GameObject.CreatePrimitive(PrimitiveType.Cube);
-        
+        SimpleDiceObject simpleDiceObject =  diceObject.AddComponent<SimpleDiceObject>();
         diceObject.name = "Dice" + index;
         diceObject.transform.localScale = Vector3.one * scale;
-        diceObject.transform.position = startPosition + new Vector3(index * (scale + 0.5f), 0, 0);
+        diceObject.transform.position = startPosition + new Vector3(0, 0, index * (scale + 0.15f));
 
         // Disable the default cube renderer since we're using sprites
         diceObject.GetComponent<MeshRenderer>().material=cubeMat;
@@ -50,22 +56,26 @@ public class DiceDisplayManager : MonoBehaviour
 
         for (int i = 0; i < 6; i++)
         {
-            GameObject face = new GameObject("Face" + (i + 1));
+            GameObject face = new GameObject("Face" + (i+1));
             face.transform.SetParent(diceObject.transform);
-            face.transform.localScale = Vector3.one * DiceSO.FACE_SCALE;
+            face.transform.localScale = Vector3.one * faceScale;
+            
 
             SpriteRenderer spriteRenderer = face.AddComponent<SpriteRenderer>();
             spriteRenderer.sprite = dice.faces[i].GetSprite(dice.faces[i].spriteName);
             spriteRenderer.material = spriteMat;
-
+            simpleDiceObject.SetFaceIndex(spriteRenderer.sprite, i+1);
             // Position each face along the normal with some distance away
-            face.transform.localPosition = normals[i] * (0.5f * scale + faceOffset);
-            face.transform.localRotation = Quaternion.LookRotation(normals[i]);
+            face.transform.localPosition = normals[i] *( (0.5f * scale)  + faceOffset);
+            //face.transform.localRwotation = Quaternion.LookRotation(normals[i]);
+            face.transform.forward = -normals[i];
             face.transform.localScale *= scale;
             // Add sorting layer and order to ensure faces render properly
             spriteRenderer.sortingOrder = 1;
         }
 
+        var rb = diceObject.AddComponent<Rigidbody>();
+        diceObject.GetComponent<BoxCollider>().material = dicePhysicsMaterial;
         createdDice.Add(diceObject);
         Debug.Log($"Created dice object with scale: {scale} at position: {diceObject.transform.position}");
     }

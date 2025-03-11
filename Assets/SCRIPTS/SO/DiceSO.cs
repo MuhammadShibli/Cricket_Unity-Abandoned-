@@ -31,11 +31,5 @@ public class DiceSO : ScriptableObject
     }
 
     // Add the missing Roll method
-    public FaceSO Roll()
-    {
-        // Assuming the physical rolling logic is handled elsewhere
-        // This method should return the face that is facing up after the roll
-        // For now, we will return a placeholder value
-        return faces[0]; // Placeholder, replace with actual logic
-    }
+  
 }
