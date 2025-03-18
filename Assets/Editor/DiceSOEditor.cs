@@ -110,7 +110,7 @@ public class DiceSOEditor : Editor
 
         Rect previewRect = EditorGUILayout.GetControlRect(false, height, GUILayout.Width(width));
 
-        // Draw sprite
+        // Draw Image
         Rect uv = new Rect(
             sprite.rect.x / sprite.texture.width,
             sprite.rect.y / sprite.texture.height,

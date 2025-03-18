@@ -29,6 +29,7 @@ public class DiceController : MonoBehaviour
         diceDisplayManager.SetDiceList(diceList);
         //then we need to initialize the dice hand
         diceHand.InitializeHand(dicePool, diceList);
+        FindAnyObjectByType<OpponentDiceDisplayManager>().GenerateOpponentDice();
     }
 
     void CreateDicePool()

@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2711018600612296611
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 755045094693863447}
+  - component: {fileID: 4334796416566622102}
+  m_Layer: 0
+  m_Name: OpponentDIce
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &755045094693863447
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2711018600612296611}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.15019587, y: 5.2454114, z: -3.4360018}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4334796416566622102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2711018600612296611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 113680a1c8b8b2e4197aa0335b76b1e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  opponentCricketer: {fileID: 11400000, guid: 61f98048f82f11343aeff37cac439f6f, type: 2}
+  opponentDicePool: {fileID: 11400000, guid: b5ebb9fc83bbffe4eb390f3dd3d35ca4, type: 2}
+  opponentDicePhysicsMaterial: {fileID: 13400000, guid: 40f2a7c1923b650469347390d8028cda, type: 2}
+  opponentCubeMat: {fileID: 2100000, guid: f721e9792913540408124ab1fe9d2ad0, type: 2}
+  opponentSpriteMat: {fileID: 2100000, guid: cb2f47a056e337a42aace77ab91eca51, type: 2}
+  startPosition: {x: 12, y: 65, z: -12}
+  faceOffset: 0.11
+  scale: 0.8
+  faceScale: 0.25
+  OnOpponentDiceGenerated:
+    m_PersistentCalls:
+      m_Calls: []

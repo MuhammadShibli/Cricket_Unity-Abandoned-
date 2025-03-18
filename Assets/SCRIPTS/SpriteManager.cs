@@ -49,7 +49,7 @@ public class SpriteManager
     public static Sprite GetSpriteById(int spriteId)
     {
         Initialize();
-        //return the sprite with the given id
+        //return the Image with the given id
         return spritesData[spriteId].sprite;
 
     }
@@ -57,7 +57,7 @@ public class SpriteManager
     public static Sprite GetSpriteWithName(string spriteName)
     {
         Initialize();
-        //return the sprite with the given name
+        //return the Image with the given name
         return spritesData.Find(s => s.name == spriteName).sprite;
     }
     public static string GetSpriteNameById(int spriteId)
@@ -69,7 +69,7 @@ public class SpriteManager
     public static int GetSpriteIdByName(string spriteName)
     {
         Initialize();
-        // select the first sprite with the name and return its id
+        // select the first Image with the name and return its id
         return spritesData.Find(s => s.name == spriteName).id;
     }
 }

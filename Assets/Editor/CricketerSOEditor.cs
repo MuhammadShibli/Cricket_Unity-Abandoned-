@@ -47,7 +47,7 @@ public class CricketerSOEditor : Editor
             Rect previewRect = new Rect(centerX, GUILayoutUtility.GetRect(previewWidth, previewHeight).y,
                                       previewWidth, previewHeight);
 
-            // Draw the sprite
+            // Draw the Image
             EditorGUI.DrawPreviewTexture(previewRect, cricketerSO.Image.texture,
                                        null, ScaleMode.ScaleToFit);
 
@@ -138,7 +138,7 @@ public class CricketerSOEditor : Editor
 
         Rect previewRect = EditorGUILayout.GetControlRect(false, height, GUILayout.Width(width));
 
-        // Draw sprite
+        // Draw Image
         Rect uv = new Rect(
             sprite.rect.x / sprite.texture.width,
             sprite.rect.y / sprite.texture.height,

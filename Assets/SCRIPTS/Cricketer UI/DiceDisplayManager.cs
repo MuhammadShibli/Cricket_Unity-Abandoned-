@@ -8,7 +8,7 @@ public class DiceDisplayManager : MonoBehaviour
     public PhysicsMaterial dicePhysicsMaterial;
     public Material cubeMat;
     public Material spriteMat;
-    public Vector3 startPosition = new Vector3(0, 0, 0);
+    public Vector3 startPosition = new Vector3(12, 65,12);
     public float faceOffset = 0.01f; // Small value to avoid Z-fighting
     public float scale = 1f;
     public float faceScale = 1f;
@@ -39,8 +39,8 @@ public class DiceDisplayManager : MonoBehaviour
         SimpleDiceObject simpleDiceObject =  diceObject.AddComponent<SimpleDiceObject>();
         diceObject.name = "Dice" + index;
         diceObject.transform.localScale = Vector3.one * scale;
-        diceObject.transform.position = startPosition + new Vector3(0, 0, index * (scale + 0.15f));
-
+        diceObject.transform.position = startPosition + new Vector3(0, 0, -4 +index * (scale + 0.35f));
+        diceObject.layer = LayerMask.NameToLayer("PlayerDice");     
         // Disable the default cube renderer since we're using sprites
         diceObject.GetComponent<MeshRenderer>().material=cubeMat;
 

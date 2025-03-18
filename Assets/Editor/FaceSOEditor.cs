@@ -33,7 +33,7 @@ public class FaceSOEditor : Editor
 
         if (sprites == null || sprites.Length == 0)
         {
-            Debug.LogError("No sprites found in sprite sheet. Ensure the texture is set up as a sprite sheet with multiple sprites.");
+            Debug.LogError("No sprites found in Image sheet. Ensure the texture is set up as a Image sheet with multiple sprites.");
             return;
         }
 
@@ -60,7 +60,7 @@ public class FaceSOEditor : Editor
             return;
         }
 
-        // Dropdown for selecting sprite name
+        // Dropdown for selecting Image name
         EditorGUI.BeginChangeCheck();
         int selectedIndex = Array.IndexOf(spriteNames, faceSO.spriteName);
         if (selectedIndex == -1) selectedIndex = 0;
@@ -74,7 +74,7 @@ public class FaceSOEditor : Editor
             EditorUtility.SetDirty(faceSO);
         }
 
-        // Display sprite preview
+        // Display Image preview
         if (!string.IsNullOrEmpty(faceSO.spriteName))
         {
             Sprite sprite = sprites.FirstOrDefault(s => s.name == faceSO.spriteName);
@@ -101,7 +101,7 @@ public class FaceSOEditor : Editor
                 previewRect.width = width;
                 previewRect.height = height;
 
-                // Draw only the selected sprite
+                // Draw only the selected Image
                 GUI.DrawTextureWithTexCoords(
                     previewRect,
                     sprite.texture,
